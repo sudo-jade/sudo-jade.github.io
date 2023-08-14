@@ -1,0 +1,19 @@
+:root {
+    --invsep: 70vh;
+  }
+body {
+    margin: 0;
+}
+#root > div {
+    position: absolute;
+    width: 100vw;
+}
+#sandbox {
+    height: var(--invsep);
+    background-color: black;
+}
+#inventory {
+    top: var(--invsep);
+    bottom: 0;
+    background-color: blue;
+}
